@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="a4bd79f7-6413-4b1e-9b4c-9db4dfd307b8" 
+        solutionId="a4bd79f7-6413-4b1e-9b4c-9db4dfd307b8" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="CompanyNews"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="d6447ec9-3bb4-4463-8023-14b5a98e5fcc" />
+  </features>
+</package>
