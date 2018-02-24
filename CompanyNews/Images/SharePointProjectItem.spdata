@@ -3,5 +3,6 @@
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="Images\" Type="ElementManifest" />
     <ProjectItemFile Source="AppIcon.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="2018-02-23 09_33_50-IMG_5768-Edit.png ‎- Foton.png" Target="Images\" Type="ElementFile" />
   </Files>
 </ProjectItem>

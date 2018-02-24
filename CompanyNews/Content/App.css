@@ -1,1 +1,54 @@
 ﻿/* Place custom styles below */
+body {
+    margin: 0;
+    padding: 2em;
+   
+    font-family: sans-serif;
+
+}
+.contain {
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 10px !important;
+    margin-bottom: 5px;
+    box-shadow: 4px 4px 10px grey inset, -1px -1px 10px grey inset
+}
+li {
+    list-style-type:none
+
+}
+.object__comment {
+    color: white;
+    font-size: 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    
+    background-color: saddlebrown;
+    padding: .3em 1em;
+    margin: 4px;
+    box-shadow: 2px 2px 5px grey
+}
+a {
+    text-decoration: none;
+    font-size: 16px !important;
+    font-weight: bold;
+    text-transform: uppercase
+}
+    a:link {
+        text-decoration: none;
+        color: #cfa370;
+        font-size: 1em
+    }
+a:visited {
+    text-decoration: none;
+    color:beige !important
+}
+a:hover {
+    text-decoration: none;
+    color:rosybrown !important;
+}
+a:active {
+    text-decoration: none;
+    color: azure;
+    
+}

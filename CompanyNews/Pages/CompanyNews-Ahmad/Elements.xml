@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ClientWebPart Name="CompanyNewApp" Title="CompanyNew-Ahmad" Description="CompanyNewApp- By Ahmad Alamili" DefaultWidth="500" DefaultHeight="600">
+
+    <!-- Content element identifies the location of the page that will render inside the client web part
+         Properties are referenced on the query string using the pattern _propertyName_
+         Example: Src="~appWebUrl/Pages/ClientWebPart1.aspx?Property1=_property1_" -->
+    <Content Type="html" Src="~appWebUrl/Pages/CompanyNews-Ahmad.aspx?{StandardTokens}&amp;MyEnum=_MyEnum_&amp;Category=_Category_" />
+
+    <!-- Define properties in the Properties element.
+         Remember to put Property Name on the Src attribute of the Content element above. -->
+    <Properties>
+      <Property Name="MyEnum"
+                Type="enum"
+                RequiresDesignerPermission="true"
+                WebCategory="BackgroundColor"
+                WebDisplayName="BackgroundColor"
+                DefaultValue="1"
+                >
+        <EnumItems>
+          <EnumItem WebDisplayName="antiquewhite" Value="1"/>
+          <EnumItem WebDisplayName="bisque" Value="2"/>
+          <EnumItem WebDisplayName="white" Value="3"/>
+        </EnumItems>
+      </Property>
+   
+
+      
+
+      <Property Name="Category"
+                Type="boolean"
+                RequiresDesignerPermission="true"
+                DefaultValue="true"
+                WebCategory="OnOff"
+                WebDisplayName="OnOff"
+                  >
+      </Property>
+    </Properties>
+
+  </ClientWebPart>
+</Elements>

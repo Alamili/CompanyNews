@@ -42,10 +42,20 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Images\2018-02-23 09_33_50-IMG_5768-Edit.png ‎- Foton.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Pages\CompanyNews-Ahmad.aspx" />
+    <Content Include="Pages\CompanyNews-Ahmad\Elements.xml">
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <None Include="packages.config" />
+    <None Include="Pages\CompanyNews-Ahmad\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{35b6d663-a874-455d-b1d4-b05aa8336387}</SharePointProjectItemId>
+    </None>
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{3a7d5305-621f-41f4-b834-64c43e7c01d9}</SharePointProjectItemId>
     </None>
@@ -68,9 +78,7 @@
     <Content Include="Content\App.css" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\AppIcon.png">
-      <OpcRelationship>manifest-icon</OpcRelationship>
-    </Content>
+    <Content Include="Images\AppIcon.png" />
     <Content Include="Images\Elements.xml" />
     <None Include="Images\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{33c921e6-c943-4d2a-861d-41f6bdd02f80}</SharePointProjectItemId>
